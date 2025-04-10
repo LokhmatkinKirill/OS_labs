@@ -16,7 +16,7 @@ int main(int argc, char* argv[], char* envp[]) {
 		sleep(1);
 	}
 
-	for(int i = 0; i < 10; i++) { //Так как envp очень большая переменная, то выведем первые 10 значений
+	for(int i = 0; i < 11; i++) { //Так как envp очень большая переменная, то выведем первые 10 значений
 		printf("envp[%d]: %s\n", i, envp[i]);
 		sleep(1);
 	}
